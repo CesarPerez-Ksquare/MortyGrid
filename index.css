@@ -70,18 +70,18 @@ li {
     list-style-type: none;
 }
 
-.redDot li::before {
-    content: "•";
-    display: inline-block;
-    width: 2%;
-    color: red;
-}
-
-.greenDot li::before  {
+li::before {
     content: "•";
     display: inline-block;
     width: 2%;
     color: green;
+}
+
+.redDot li::before  {
+    content: "•";
+    display: inline-block;
+    width: 2%;
+    color: red;
 }
 
 img {
